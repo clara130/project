@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Data data = new Data();
+
+            Console.WriteLine("Creating tables...");
+            data.CreateTables();
+            Console.WriteLine("Tables are ready.");
         }
     }
 }

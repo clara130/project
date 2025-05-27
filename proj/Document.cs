@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace proj
 {
-    internal class Document
+    public class Document
     {
+        public string DocumentId { get; private set; }
+        public string Name { get; set; }
+        public DateTime ExpiryDate { get; set; }
+        public Document(string name, DateTime expiryDate)
+        {
+            DocumentId = Guid.NewGuid().ToString();
+            Name = name;
+            ExpiryDate = expiryDate;
+        }
     }
 }
