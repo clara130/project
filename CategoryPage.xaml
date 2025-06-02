@@ -1,0 +1,13 @@
+﻿<Page x:Class="WPFApp_Navigation.CategoryPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="CategoryPage">
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock x:Name="CategoryTitle" FontSize="24" Margin="0,0,0,10"/>
+            <ListBox x:Name="DocumentList" Height="200"/>
+            <Button Content="Add Document" Width="150" Click="AddDocument_Click" Margin="0,10"/>
+            <TextBlock Text="Go Back" Foreground="Blue" Cursor="Hand" MouseLeftButtonUp="GoBack_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

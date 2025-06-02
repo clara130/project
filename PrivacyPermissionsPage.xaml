@@ -1,0 +1,12 @@
+﻿<Page x:Class="WPFApp_Navigation.PrivacyPermissionsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="PrivacyPermissionsPage">
+    <Grid Margin="20">
+        <TextBlock Text="Go Back" FontSize="14" Foreground="Blue" Cursor="Hand"
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"
+                   MouseLeftButtonUp="GoBack_Click"/>
+        <TextBlock Text="Privacy and Permissions" FontSize="24" FontWeight="Bold"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Grid>
+</Page>
